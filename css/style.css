@@ -45,7 +45,8 @@
 /* body:hover .name {
      opacity: 1;
 } */
-*/ * {
+
+* {
      margin: 0;
      padding: 0;
 }
@@ -78,7 +79,7 @@ header p {
 
 .photobanner {
      height: 233px;
-     width: 3550px;
+     width: 20050px;
      margin-bottom: 80px;
 }
 
@@ -150,4 +151,8 @@ header p {
      position:absolute;
      bottom: 0;
      right: 2%;
+}
+
+img {
+     height: 100%;
 }
