@@ -46,7 +46,7 @@
      opacity: 1;
 } */
 
-* {
+/* * {
      margin: 0;
      padding: 0;
 }
@@ -78,19 +78,21 @@ header p {
 /*photobanner*/
 
 .photobanner {
-     height: 233px;
-     width: 20050px;
+     height:400px;
+     width: 50050px;
      margin-bottom: 80px;
 }
 
 /*keyframe animations*/
 .first {
-     -webkit-animation: bannermove 30s linear infinite;
-     -moz-animation: bannermove 30s linear infinite;
-     -ms-animation: bannermove 30s linear infinite;
-     -o-animation: bannermove 30s linear infinite;
-     animation: bannermove 30s linear infinite;
+     -webkit-animation: bannermove 100s linear infinite;
+     -moz-animation: bannermove 100s linear infinite;
+     -ms-animation: bannermove 100s linear infinite;
+     -o-animation: bannermove 100s linear infinite;
+     animation: bannermove 100s linear infinite;
 }
+
+/*100% is -1 * total width of repeat banner - add for all keyframes*/
 
 @keyframes "bannermove" {
      0% {
@@ -98,7 +100,7 @@ header p {
      }
 
      100% {
-          margin-left: -2125px;
+          margin-left: -10125px;
      }
 
 }
@@ -109,7 +111,7 @@ header p {
      }
 
      100% {
-          margin-left: -2125px;
+          margin-left: -10125px;
      }
 
 }
@@ -120,7 +122,7 @@ header p {
      }
 
      100% {
-          margin-left: -2125px;
+          margin-left: -10125px;
      }
 
 }
@@ -131,7 +133,7 @@ header p {
      }
 
      100% {
-          margin-left: -2125px;
+          margin-left: -10125px;
      }
 
 }
@@ -142,7 +144,7 @@ header p {
      }
 
      100% {
-          margin-left: -2125px;
+          margin-left: -10125px;
      }
 
 }
@@ -155,4 +157,4 @@ header p {
 
 img {
      height: 100%;
-}
+} */
