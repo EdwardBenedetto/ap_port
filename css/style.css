@@ -118,7 +118,7 @@ header p {
 
 @-webkit-keyframes "bannermove" {
      0% {
-          margin-left: 110px;
+          margin-left: 10px;
      }
 
      100% {
